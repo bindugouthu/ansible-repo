@@ -1,6 +1,6 @@
 ---
 - hosts: weblayer
-  remote_user: ec2-user
+  remote_user: jenkins
   tasks:
      - name: install httpd
        yum : name=httpd
