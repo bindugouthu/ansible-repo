@@ -1,5 +1,5 @@
 ---
-- hosts: 18.133.121.148
+- hosts: 172.31.13.245
   remote_user: ec2-user
   tasks:
      - name: install httpd
