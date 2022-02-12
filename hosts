@@ -11,8 +11,9 @@
 # Ex 1: Ungrouped hosts, specify before any group headers.
 
 [weblayer]
-18.133.121.148
-172.31.13.245
+localhost
+#18.133.121.148
+#172.31.13.245
 #172.31.1.11    ansible_connection=ssh  ansible_user=ubuntu
 
 ## green.example.com
