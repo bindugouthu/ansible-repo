@@ -1,5 +1,5 @@
 ---
-- hosts: localhost
+- hosts: 18.133.121.148
   remote_user: ec2-user
   tasks:
      - name: install httpd
