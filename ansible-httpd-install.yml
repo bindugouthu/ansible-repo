@@ -1,5 +1,5 @@
 ---
-- hosts: 172.31.13.245
+- hosts: weblayer
   remote_user: ec2-user
   tasks:
      - name: install httpd
