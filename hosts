@@ -12,6 +12,7 @@
 
 [weblayer]
 18.133.121.148
+172.31.13.245
 #172.31.1.11    ansible_connection=ssh  ansible_user=ubuntu
 
 ## green.example.com
