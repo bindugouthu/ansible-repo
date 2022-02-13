@@ -1,6 +1,5 @@
 pipeline {
   agent any
-
   stages {
     stage('ansible version') {
       steps {
@@ -9,7 +8,9 @@ pipeline {
           ansible-playbook --version
           ansible-galaxy --version
         '''
+        ansiblePlaybook 'ansible-httpd-install.yml'
       }
     }
+
   }
 }
